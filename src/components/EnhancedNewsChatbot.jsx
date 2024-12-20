@@ -76,7 +76,7 @@ const EnhancedNewsChatbot = ({ currentNews }) => {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': 'Bearer 0086ff0595874eddbc143c86b81441e2'
+          'Authorization': 'Bearer '
         },
         body: JSON.stringify({
           model: "gpt-3.5-turbo",
